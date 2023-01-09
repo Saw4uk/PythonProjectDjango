@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d733bd9c-dd32-4f91-b2a1-4957188af547" name="Changes" comment="" />
+    <list default="true" id="d733bd9c-dd32-4f91-b2a1-4957188af547" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonProjectDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonProjectDjango/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonProjectDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonProjectDjango/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,11 +33,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Saw4uk\Documents\GitHub\PythonProjectDjango\templates" />
+      <recent name="C:\Users\Saw4uk\Documents\GitHub\PythonProjectDjango" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="PythonProjectDjango" type="Python.DjangoServer" factoryName="Django server">
       <module name="PythonProjectDjango" />
@@ -60,6 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672412988626</updated>
       <workItem from="1672413014298" duration="27000" />
+      <workItem from="1673279626501" duration="2533000" />
     </task>
     <servers />
   </component>
