@@ -4,6 +4,7 @@ import json
 from multiprocessing import Pool
 
 
+
 class API_loader:
     @staticmethod
     def parse_response(hour):
@@ -26,6 +27,7 @@ class API_loader:
                     print(x)
                     parsedJson = json.loads(res.text)["items"]
                     result_array.append(pd.DataFrame([{'name': get(item, 'name'),
+                                                       'employer': get(get(item,'employer'),'name'),
                                                        'salary_from': get(get(item, 'salary'), 'from'),
                                                        'salary_to': get(get(item, 'salary'), 'to'),
                                                        'url': get(item, 'url'),
@@ -54,6 +56,7 @@ class API_loader:
             vacancy['description'] = url['description']
             vacancy['skills'] = ', '.join(skill['name'] for skill in url['key_skills'])
             vacancy['published_at'] = vacancy['published_at'][11:19]
+            vacancy['salary_from'] = f"{vacancy['salary_from'] if 0/vacancy['salary_from'] == 0 else vacancy['salary_to'] if 0/vacancy['salary_to'] == 0 else 'Не указан' if (0 / (vacancy['salary_from']+vacancy['salary_to']/2)) != 0 else str(vacancy['salary_from']+vacancy['salary_to']/2)} {vacancy['salary_currency'] if vacancy['salary_currency'] is not None else ''}"
             resultDf.loc[len(resultDf.index)] = vacancy
         return API_loader.get_array_ov_vacs(resultDf)
 

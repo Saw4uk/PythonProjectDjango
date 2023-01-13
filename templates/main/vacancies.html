@@ -1,10 +1,17 @@
 {% extends 'main/base.html' %}
 {% load static %}
 {% block content %}
+    <div class="page_naming_panel"><p>Вакансии</p></div>
     {% for vacancy in vacncies_list %}
-        <p>Название вакансии {{ vacancy.name }}</p>
-        <p>Время публикации вакансии {{ vacancy.published_at }}</p>
-        <div style="padding: 20px">{{ vacancy.description|safe }}</div>
+        <div class="page_context_box">
+            <p>Название вакансии: {{ vacancy.name }}</p>
+            <p>Время публикации вакансии: {{ vacancy.published_at }}</p>
+            <p>Требуемые навыки: {{ vacancy.skills }}</p>
+            <p>Оклад: {{ vacancy.salary_from }}</p>
+            <p>Название региона: {{ vacancy.area_name }}</p>
+            <p>Компания - наниматель: {{ vacancy.employer }}</p>
+            <div style="padding: 20px">{{ vacancy.description|safe }}</div>
+        </div>
     {% endfor %}
 {% endblock %}
 
