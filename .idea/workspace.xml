@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d733bd9c-dd32-4f91-b2a1-4957188af547" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ApiLoader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main/geography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main/needable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main/skills.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main/vacancies.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PythonProjectDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonProjectDjango/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PythonProjectDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonProjectDjango/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
+        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -36,11 +50,18 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Saw4uk/Documents/GitHub/Python/New Version/Api_loader.py",
+    "list.type.of.created.stylesheet": "CSS"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Saw4uk\Documents\GitHub\PythonProjectDjango\templates\main" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Saw4uk\Documents\GitHub\PythonProjectDjango\templates\main" />
+      <recent name="C:\Users\Saw4uk\Documents\GitHub\PythonProjectDjango\main\static\css" />
       <recent name="C:\Users\Saw4uk\Documents\GitHub\PythonProjectDjango\templates" />
       <recent name="C:\Users\Saw4uk\Documents\GitHub\PythonProjectDjango" />
     </key>
@@ -80,6 +101,9 @@
       <updated>1672412988626</updated>
       <workItem from="1672413014298" duration="27000" />
       <workItem from="1673279626501" duration="2533000" />
+      <workItem from="1673342199169" duration="1540000" />
+      <workItem from="1673356824797" duration="4131000" />
+      <workItem from="1673593494133" duration="15474000" />
     </task>
     <servers />
   </component>
@@ -96,5 +120,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PythonProjectDjango$ApiLoader.coverage" NAME="ApiLoader Coverage Results" MODIFIED="1673599825185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

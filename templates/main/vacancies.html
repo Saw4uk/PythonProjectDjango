@@ -1,0 +1,10 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block content %}
+    {% for vacancy in vacncies_list %}
+        <p>Название вакансии {{ vacancy.name }}</p>
+        <p>Время публикации вакансии {{ vacancy.published_at }}</p>
+        <div style="padding: 20px">{{ vacancy.description|safe }}</div>
+    {% endfor %}
+{% endblock %}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Главная страница</title>
+</head>
+<body>
+<header>
+    <img src="{% static 'img/icon.png' %}">
+    <p>Предоставитель информации о СИШАРП вакансиях СЛИВИНАТОР-3000</p>
+</header>
+<main>
+    <div class="navigation_panel">
+        <div class="navigation_panel_header">Навигация</div>
+        <a href="/">
+            <i class="fas"></i>
+            <span>Главная</span>
+        </a>
+        <a href="/needable">
+            <i class="fas"></i>
+            <span>Востребованность</span>
+        </a>
+        <a href="/geography">
+            <i class="fas"></i>
+            <span>География</span>
+        </a>
+        <a href="/skills">
+            <i class="fas"></i>
+            <span>Навыки</span>
+        </a>
+        <a href="/vacancies">
+            <i class="far"></i>
+            <span>Вакансии</span>
+        </a>
+    </div>
+    <div class="content">
+        {% block content %}
+        {% endblock %}
+    </div>
+</main>
+<footer>Савченков Иван Алексеевич, РИ 210943</footer>
+</body>
+</html>

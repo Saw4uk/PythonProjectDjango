@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Stalk';
+    src: local('Abc'),
+    url('../static/fonts/RevenantsRegular.ttf') format("truetype");
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+header {
+    display: flex;
+    position: relative;
+    width: 100%;
+    background-color: #2D4059;
+    height: 75px;
+    padding: 5px;
+    font-family: Stalk, "Agency FB", serif;
+    color: #FFD460;
+    font-size: 25px;
+
+}
+
+header img {
+    margin-left: 50px;
+    max-height: 65px;
+    max-width: 65px;
+}
+
+header p {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-10%, -50%)
+}
+
+main {
+
+    display: flex;
+    flex: 1 0 auto;
+    min-height: 100%;
+}
+
+footer {
+    background-color: #2D4059;
+    font-family: Stalk, serif;
+    font-size: 25px;
+    text-align: center;
+    color: #FFD460;
+    height: 25px;
+}
+
+.page_naming_panel {
+    position: relative;
+    width: 90%;
+    min-height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: #EA5455;
+}
+
+.page_naming_panel p {
+    font-size: 25px;
+    font-family: Stalk, serif;
+    color: #FFD460;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.page_context_box {
+    line-height: 2em;
+    text-indent: 20px;
+    align-items: center;
+    padding: 20px;
+    width: 90%;
+    min-height: 85%;
+    margin: 20px auto;
+    border-radius: 30px;
+    background-color: #FFD460;
+    font-family: Stalk, serif;
+}
+
+
+.page_context_box h2 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.page_context_box img {
+    display: block;
+    margin: 20px auto;
+}
+
+.content {
+    display: block;
+    min-height: 80vh;
+    width: 85%;
+}
+
+.navigation_panel {
+    width: 15%;
+    margin: 10px 10px 20px 0;
+    padding-top: 20px;
+    border-radius: 0 10px 10px 0;
+    background: #2D4059;
+}
+
+.vacancy_panel {
+
+}
+
+.navigation_panel_header {
+    font-size: 28px;
+    color: white;
+    line-height: 70px;
+    text-align: center;
+    background: #2D4059;
+    user-select: none;
+    font-family: Stalk, serif;
+}
+
+.navigation_panel a {
+    display: block;
+    height: 65px;
+    width: 100%;
+    color: white;
+    line-height: 65px;
+    border-bottom: 1px solid #2D4059;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-left: 5px solid transparent;
+    box-sizing: border-box;
+    font-family: Stalk, serif;
+}
+
+a.gesopamda, a:hover {
+    max-width: 254px;
+    border-left: 5px solid #FFD460;
+    color: #FFD460;
+}
+
+.navigation_panel a i {
+    font-size: 23px;
+    margin-right: 16px;
+}
+
+.navigation_panel a span {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#check {
+    display: none;
+}
