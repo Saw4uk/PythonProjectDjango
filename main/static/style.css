@@ -74,13 +74,16 @@ footer {
     margin-right: auto;
     margin-top: 20px;
     border-radius: 30px;
-    background-color: #EA5455;
+    background-color: #ff7f27;
+}
+
+.big_diagramm{
+    max-width: 1000px;
 }
 
 .page_naming_panel p {
     font-size: 25px;
     font-family: Stalk, serif;
-    color: #FFD460;
     position: absolute;
     top: 50%;
     left: 50%;
